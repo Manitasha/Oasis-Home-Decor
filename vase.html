@@ -1,0 +1,324 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+
+
+<!--Remy Sharp Shim -->
+<!--[if lte IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js" >
+</script>
+<![endif]-->
+
+<link href="css/font-awesome.min.css" type="text/css" rel="stylesheet">
+<link href="css/jquery-ui.css" rel="stylesheet">
+<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+<link href="css/styles.css" type="text/css" rel="stylesheet">
+
+<script>
+$(document).ready(function(){
+  $(".nav-button").click(function () {
+  $(".nav-button,.primary-nav").toggleClass("open");
+  });
+});
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script src="js/drop-down.js" type="text/javascript"> </script>
+<script src="js/script.js"></script>
+<script src="js/jquery.flexslider.js"></script>
+
+<script>
+$(function(){
+	SyntaxHighlighter.all();
+});
+$(window).load(function(){
+	$('.flexslider').flexslider({
+		animation: "slide",
+		start: function(slider){
+			$('body').removeClass('loading');
+		}
+	});
+});
+</script>
+
+<title>Final Project</title>
+</head>
+<body>
+
+    <header>
+        <img id="logo" src="images/logo.png" alt="logo">
+        <div id="headerContent">
+            <div class="header-item" id="headerAccountArea">
+                <div id="signInRegister">Sign in | Register</div>
+                <form action="formhandler.php" method="post" id="searchForm">
+                   <input type="name" name="name"  placeholder="Search">
+                   <i class="fa fa-search fa-small"></i>
+                </form>
+            </div>
+            <div class="header-item">
+                <i class="fa fa-user-o fa-2x"></i>
+            </div>
+            <div class="header-item">
+                <i class="fa fa-shopping-cart fa-2x"></i>
+            </div>
+        </div>
+  	</header>
+
+
+	  <nav>
+
+	  <ul class="nav">
+
+		  <li>
+		  <a href="index.html">
+		  HOME
+		  </a>
+		  </li>
+
+		  <li>
+		  <a href="">
+		  WALL DECOR
+		  </a>
+		  </li>
+
+	  <li class="button-dropdown">
+	  <a href="javascript:void(0)" class="dropdown-toggle">
+	  HOME ACCENTS<span>▼</span>
+	  </a>
+
+	  <ul class="dropdown-menu">
+
+          <li>
+          <a href="homeAccents.html">
+          ALL
+          </a>
+          </li>
+
+	  <li>
+	  <a href="vase.html">
+	  VASES
+	  </a>
+	  </li>
+
+	  <li>
+	  <a href="">
+	  PHOTO FRAMES
+	  </a>
+	  </li>
+
+	  <li>
+	 <a href="">
+	 CANDLES
+	 </a>
+	 </li>
+
+	  </ul>
+	  </li>
+
+
+
+	  <li>
+	  <a href="">
+	  MISCELLANEOUS
+	  </a>
+	  </li>
+
+	  <li>
+	  <a href="">
+	  CONTACT
+	  </a>
+	  </li>
+
+	  </ul>
+	  </nav>
+
+<div id="wrapper">
+
+    <ul class="breadcrumb">
+<li><a href="index.html">Home</a></li>
+<li><a href="homeAccents.html">Home Accents</a></li>
+<li>Vases</li>
+</ul>
+
+      <main>
+          <div id="filter">
+              <h4>Type</h4>
+              <input type="checkbox"> <label> Floor</label> </br>
+              <input type="checkbox"> <label> Table Top</label> </br>
+              <h4>Style</h4>
+              <input type="checkbox"> <label> Modern</label> </br>
+              <input type="checkbox"> <label> Vintage </label> </br>
+              <input type="checkbox"> <label> Bohemian </label> </br>
+              <h4>Material</h4>
+              <input type="checkbox"> <label> Glass</label> </br>
+              <input type="checkbox"> <label> Ceramic </label> </br>
+              <input type="checkbox"> <label> Burlap </label> </br>
+              <input type="checkbox"> <label> Other </label> </br>
+              <h4>Color</h4>
+              <input type="checkbox">
+              <input type="checkbox">
+              <input type="checkbox">
+              <input type="checkbox">
+              <input type="checkbox">
+
+          </br>
+
+           <input type="checkbox">
+           <input type="checkbox">
+           <input type="checkbox">
+           <input type="checkbox">
+           <input type="checkbox">
+
+
+
+
+
+
+
+
+
+          </div>
+      </main>
+
+      <aside>
+
+<div class="imageDesc">
+    <a href="neoVase.html"><img src="vase/vase1.jpg" alt=""></a>
+    <a href="neoVase.html"><h4 class="linkDes">Neo Vase </br> <span class="blue">$25</span></h4></a>
+</div>
+
+<div class="imageDesc">
+    <img src="vase/vase2.jpg" alt="">
+    <h4 class="linkDes">Amphora Vase </br> <span class="blue">$18</span></h4>
+</div>
+
+<div class="imageDesc">
+    <img src="vase/vase3.jpg" alt="">
+    <h4 class="linkDes">Krater Vase </br> <span class="blue">$30</span></h4>
+</div>
+
+<div class="imageDesc">
+    <img src="vase/vase4.jpg" alt="">
+    <h4 class="linkDes">Skyphos Vase </br> <span class="blue">$28</span></h4>
+</div>
+
+<div class="imageDesc">
+    <img src="vase/vase5.jpg" alt="">
+    <h4 class="linkDes">Aryballos Vase </br> <span class="blue">$45</span></h4>
+</div>
+
+<div class="imageDesc">
+    <img src="vase/vase6.jpg" alt="">
+    <h4 class="linkDes">Jute Vase </br> <span class="blue">$35</span></h4>
+</div>
+
+<div class="imageDesc">
+    <img src="vase/vase7.jpg" alt="">
+    <h4 class="linkDes"> Lebes Vase </br> <span class="blue">$25</span></h4>
+</div>
+
+<div class="imageDesc">
+    <img src="vase/vase8.jpg" alt="">
+    <h4 class="linkDes">Volute Vase </br> <span class="blue">$20</span></h4>
+</div>
+
+<div class="imageDesc">
+    <img src="vase/vase9.jpg" alt="">
+    <h4 class="linkDes">Kylix Vase </br> <span class="blue">$40</span></h4>
+</div>
+
+<div class="imageDesc">
+    <img src="vase/vase10.jpg" alt="">
+    <h4 class="linkDes">Stamnos Vase </br> <span class="blue">$30</span></h4>
+</div>
+
+<div class="imageDesc">
+    <img src="vase/vase11.jpg" alt="">
+    <h4 class="linkDes">Psykter Vase </br> <span class="blue">$25</span></h4>
+</div>
+
+<div class="imageDesc">
+    <img src="vase/vase12.jpg" alt="">
+    <h4 class="linkDes">Onyx Vase </br> <span class="blue">$40</span></h4>
+</div>
+
+
+<!--     <div class="rows">
+         <img src="vase/vase1.jpg" alt="">
+         <img src="vase/vase2.jpg" alt="">
+         <img src="vase/vase3.jpeg" alt="">
+         <img src="vase/vase4.jpg" alt="">
+    </div>
+
+    <div class="rows">
+        <img src="vase/vase5.jpg" alt="">
+        <img src="vase/vase6.jpg" alt="">
+        <img src="vase/vase7.jpg" alt="">
+        <img src="vase/vase8.jpg" alt="">
+   </div>
+
+   <div class="rows">
+       <img src="vase/vase9.jpg" alt="">
+       <img src="vase/vase19.jpg" alt="">
+       <img src="vase/vase11.jpg" alt="">
+       <img src="vase/vase12.jpg" alt="">
+  </div> -->
+      </aside>
+
+
+
+
+ </div> <!--end wrapper-->
+
+ <footer>
+
+ <div id="footer-inner">
+ <div id="footerbox1">
+	 <h3>Sign Up for Newsletter</h3>
+	 <form action="formhandler.php" method="post">
+
+	 	<input type="email" name="Email"  placeholder="Email">
+	 		</form>
+ 	<h3>Stay Connected</h3>
+ <div id="footer-social">
+ <i class="fa fa-facebook-official fa-lg"></i>
+ <i class="fa fa-twitter-square fa-lg"></i>
+ <i class="fa fa-instagram fa-lg"></i>
+ </div> <!--end footer-social-->
+
+ </div>  <!--end footerbox1-->
+
+ <div id="footerbox2">
+   <div id="footerbox2-inner">
+ <h3>Resources</h3>
+ <a class="link" href="calendar.php">My Account</a>
+ <a class="link" href="group-class.php">Online Catalogue</a>
+ <a class="link" href="calendar.php">Corporate Sales</a>
+ </div> <!--end footerbox2-inner-->
+
+ </div> <!-- close footerbox2-->
+
+ <div id="footerbox3">
+ <h3>Customer Services</h3>
+ <a class="link" href="calendar.php">Shipping and Returns</a>
+ <a class="link" href="group-class.php">Order Status</a>
+ <a class="link" href="calendar.php">Tracking</a>
+ <a class="link" href="group-class.php">Gift Registry</a>
+ <a class="link" href="calendar.php">Gift Cards</a>
+
+ </div> <!-- close footerbox3-->
+
+
+
+ </div> <!-- close footer inner-->
+
+
+
+ </footer>
+
+
+
+
+      </body>
+      </html>

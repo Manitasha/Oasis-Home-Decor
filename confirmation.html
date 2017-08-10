@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+
+
+<!--Remy Sharp Shim -->
+<!--[if lte IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js" >
+</script>
+<![endif]-->
+
+<link href="css/font-awesome.min.css" type="text/css" rel="stylesheet">
+<link href="css/jquery-ui.css" rel="stylesheet">
+<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+<link href="css/styles.css" type="text/css" rel="stylesheet">
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script src="js/jquery.flexslider.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/drop-down.js" type="text/javascript"> </script>
+<script src="js/script.js"></script>
+
+<script>
+$(document).ready(function(){
+  $(".nav-button").click(function () {
+  $(".nav-button,.primary-nav").toggleClass("open");
+  });
+});
+</script>
+
+<script>
+$(function(){
+	SyntaxHighlighter.all();
+});
+$(window).load(function(){
+	$('.flexslider').flexslider({
+		animation: "slide",
+		start: function(slider){
+			$('body').removeClass('loading');
+		}
+	});
+});
+</script>
+
+<title>Final Project</title>
+</head>
+<body>
+
+	<header>
+        <img id="logo" src="images/logo.png" alt="logo">
+        <div id="headerContent">
+            <div class="header-item" id="headerAccountArea">
+                <div id="signInRegister">Sign in | Register</div>
+                <form action="formhandler.php" method="post" id="searchForm">
+                   <input type="name" name="name"  placeholder="Search">
+                   <i class="fa fa-search fa-small"></i>
+                </form>
+            </div>
+            <div class="header-item">
+                <i class="fa fa-user-o fa-2x"></i>
+            </div>
+            <div class="header-item">
+                <i class="fa fa-shopping-cart fa-2x" id="shop"></i>
+            </div>
+        </div>
+  	</header>
+
+	  <nav>
+
+	  <ul class="nav">
+		  <li>
+		  <a href="index.html">
+		  HOME
+		  </a>
+		  </li>
+
+		  <li>
+		  <a href="">
+		  WALL DECOR
+		  </a>
+		  </li>
+
+	  <li class="button-dropdown">
+	  <a href="javascript:void(0)" class="dropdown-toggle">
+	  HOME ACCENTS<span>▼</span>
+	  </a>
+
+	  <ul class="dropdown-menu">
+	  <li>
+	  <a href="vase.html">
+	  VASES
+	  </a>
+	  </li>
+
+	  <li>
+	  <a href="">
+	  PHOTO FRAMES
+	  </a>
+	  </li>
+
+	  <li>
+	 <a href="">
+	 CANDLES
+	 </a>
+	 </li>
+
+	  </ul>
+	  </li>
+
+
+
+	  <li>
+	  <a href="">
+	  MISCELLANEOUS
+	  </a>
+	  </li>
+
+	  <li>
+	  <a href="">
+	  CONTACT
+	  </a>
+	  </li>
+
+	  </ul>
+	  </nav>
+
+<div id="wrapper">
+
+    <ul class="breadcrumb">
+<li><a href="cart.html">Cart</a></li>
+<li><a href="shipping.html">Shipping</a></li>
+<li><a href="review.html">Review </a></li>
+<li>Order Confirmation</li>
+</ul>
+
+<div id="conf">
+<h2> Thank You for your order</h2>
+<p>Your Order Number is 120123</p>
+<p class="confirm"> Print Your Receipt >></p>
+<p class="confirm"> Track Your Order >></p>
+</div>
+
+<div id="conf1">
+<p>For questions and comments send us an email at</p>
+<p class="confirm"> customer.info@oasishomedecor.com</p>
+</div>
+
+
+
+ </div> <!--end wrapper-->
+
+ <footer>
+
+ <div id="footer-inner">
+ <div id="footerbox1">
+	 <h3>Sign Up for Newsletter</h3>
+	 <form action="formhandler.php" method="post">
+
+	 	<input type="email" name="Email"  placeholder="Email">
+	 		</form>
+ 	<h3>Stay Connected</h3>
+ <div id="footer-social">
+ <i class="fa fa-facebook-official fa-lg"></i>
+ <i class="fa fa-twitter-square fa-lg"></i>
+ <i class="fa fa-instagram fa-lg"></i>
+ </div> <!--end footer-social-->
+
+ </div>  <!--end footerbox1-->
+
+ <div id="footerbox2">
+   <div id="footerbox2-inner">
+ <h3>Resources</h3>
+ <a class="link" href="calendar.php">My Account</a>
+ <a class="link" href="group-class.php">Online Catalogue</a>
+ <a class="link" href="calendar.php">Corporate Sales</a>
+ </div> <!--end footerbox2-inner-->
+
+ </div> <!-- close footerbox2-->
+
+ <div id="footerbox3">
+ <h3>Customer Services</h3>
+ <a class="link" href="calendar.php">Shipping and Returns</a>
+ <a class="link" href="group-class.php">Order Status</a>
+ <a class="link" href="calendar.php">Tracking</a>
+ <a class="link" href="group-class.php">Gift Registry</a>
+ <a class="link" href="calendar.php">Gift Cards</a>
+
+ </div> <!-- close footerbox3-->
+
+
+
+ </div> <!-- close footer inner-->
+
+
+
+ </footer>
+
+
+
+
+      </body>
+      </html>

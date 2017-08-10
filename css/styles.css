@@ -1,0 +1,657 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1100px;
+    overflow: hidden;
+}
+
+#logo {
+    display: inline-block;
+    width: 20%;
+    margin: 20px 20px 10px 20px;
+}
+
+#bakwass {
+    float: right;
+    margin-right: 100px;
+    margin-top: 10px;
+}
+
+#headerContent {
+    float: right;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+#headerAccountArea {
+    margin-right: 10px;
+}
+
+#signInRegister {
+    margin-top: 2px;
+    text-align: center;
+}
+
+#searchForm {
+    border: 1px solid grey;
+    margin-top: 5px;
+    height: 26px;
+    border-radius: 20px;
+    padding: 0px 7px;
+}
+
+#searchForm input {
+    border: none;
+    padding: 2px 4px 2px 6px;
+}
+
+.header-item {
+    display: inline-block;
+    margin: 0 0;
+}
+
+#shop {
+    margin-left: 10px;
+}
+
+nav {
+    height: 25px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    margin: 20px auto;
+    text-align: center;
+}
+
+nav li {
+    list-style-type: none;
+    float: left;
+    width: 20%;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #329A9A;
+    font-family: sans-serif;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.nav .button-dropdown {
+    position: relative;
+}
+
+.nav li a span {
+    display: inline-block;
+    margin-left: 5px;
+    font-size: 10px;
+    color: #999;
+}
+
+.nav li a:hover, .nav li a.dropdown-toggle.active {
+    color: #EAB81E;
+}
+
+.nav li a:hover span, .nav li a.dropdown-toggle.active span {
+    color: #999;
+}
+
+.nav li .dropdown-menu {
+    display: none;
+    position: absolute;
+    left: 0;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    z-index: 20;
+    background: white;
+    width: 100%;
+    min-width: 200px;
+}
+
+.dropdown-menu li {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.nav li .dropdown-menu.active {
+    display: block;
+}
+
+.nav li .dropdown-menu a {
+    color: #EAB81E;
+}
+
+.nav li .dropdown-menu a:hover {
+    color: #329A9A;
+}
+
+
+/* footer ***/
+
+i.fa {
+    margin-right: 8px;
+    height: 50px;
+    color: black;
+    margin-top: 5px;
+}
+
+footer {
+    background: #329A9A;
+    overflow: hidden;
+    margin-top: 20px;
+    clear: both;
+}
+
+.fa-lg {
+    font-size: 1.6em;
+}
+
+#footer-inner {
+    width: 80%;
+    margin: 0px auto 0px auto;
+    overflow: hidden;
+    clear: both;
+}
+
+#footerbox1 {
+    width: 28.0425532%;
+    float: left;
+    padding: 1.0382%;
+    margin: 1.0382% 2.12765% 1.0382% 1.0382%;
+}
+
+#footerbox2 {
+    width: 28.0425532%;
+    float: left;
+    padding: 1.0382%;
+    margin: 1.0382% 2.12765% 1.0382% 1.0382%;
+}
+
+#footerbox2 p {
+    line-height: 20px;
+    font-size: 1em;
+}
+
+#footerbox3 {
+    width: 28.0425532%;
+    float: right;
+    padding: 1.0382%;
+    margin: 1.0382% 1.0382% 1.0382% 0;
+}
+
+#footerbox2-inner {
+    display: block;
+    margin: 0 auto;
+}
+
+#footerbox1 input[type=email] {
+    width: 90%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 25px;
+}
+
+a.link {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    color: black;
+    display: block;
+    margin-bottom: 5px;
+    font-size: 0.8em;
+    text-decoration: none;
+}
+
+#footer-social {
+    margin-top: 5px;
+}
+
+#copyright li a {
+    text-decoration: none;
+    color: red;
+}
+
+
+/*** breadcrumb ***/
+
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    font-size: 17px;
+}
+
+ul.breadcrumb li {
+    display: inline;
+}
+
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: #329A9A;
+    content: "/\00a0";
+}
+
+ul.breadcrumb li a {
+    color: #EAB81E;
+    text-decoration: none;
+}
+
+ul.breadcrumb li a:hover {
+    color: #329A9A;
+}
+
+main {
+    width: 20%;
+    float: left;
+    padding: 10px;
+}
+
+aside {
+    width: 75%;
+    float: right;
+    padding: 10px;
+}
+
+.row1, .row2 {
+    margin: 40px 20px;
+}
+
+.row1 img {
+    display: inline-block;
+    width: 100%;
+}
+
+.row2 img {
+    display: inline-block;
+    width: 100%;
+}
+
+.imageLink {
+    position: relative;
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+}
+
+.linka {
+    position: absolute;
+    bottom: -26px;
+    right: 0;
+    width: 100%;
+    color: white;
+    background: #329A9A;
+    line-height: 30px;
+    text-align: center;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 1.2em;
+}
+
+.imageDesc {
+    position: relative;
+    display: inline-block;
+    width: 20%;
+    margin: 60px 10px;
+}
+
+.linkDes {
+    position: absolute;
+    bottom: -55px;
+    right: 0;
+    width: 100%;
+    color: black;
+    line-height: 30px;
+    text-align: center;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 1.2em;
+}
+
+#hA {
+    margin-top: 60px;
+}
+
+#hA li {
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+.blue {
+    color: #329A9A;
+}
+
+.left {
+    float: left;
+    width: 45%;
+    padding: 10px;
+}
+
+.right {
+    float: right;
+    width: 45%;
+    padding: 10px;
+}
+
+.left-inline-block {
+    display: inline-block;
+    width: 45%;
+    padding: 10px;
+    vertical-align: top;
+}
+
+.right-inline-block {
+    display: inline-block;
+    width: 45%;
+    padding: 10px;
+    vertical-align: top;
+}
+
+#box {
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+
+.subProduct {
+    display: inline-block;
+}
+
+.subProduct img {
+    display: block;
+    width: 70%;
+    margin-bottom: 20px;
+}
+
+.mainProduct {
+    display: inline-block;
+}
+
+.mainProduct img {
+    width: 150%;
+}
+
+.total {
+    border: 1px solid black;
+    padding: 10px;
+    width: 50%;
+
+}
+
+.total-shipping {
+    border: 1px solid black;
+    padding: 10px;
+    margin-top: 40px;
+    width: 80%;
+}
+
+.shipping-spin {
+    width: 100px;
+}
+
+#forMargin {
+    margin-bottom: 30px;
+}
+
+.forMarginTop {
+    margin-top: 20px;
+}
+
+.detail {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.detail h3, p {
+    margin-bottom: 8px;
+}
+
+.detail h4 {
+    margin-bottom: 25px;
+}
+
+.price {
+    display: inline-block;
+}
+
+#shipping {
+    border: 1px solid black;
+    margin-top: 10px;
+    padding: 10px 10px 0 10px;
+}
+
+.shippingLabel {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#cart {
+    display: inline-block;
+    width: 48%;
+    vertical-align: top;
+}
+
+#cart img {
+    width: 80%;
+    margin-top: 30px;
+}
+
+#carta {
+    width: 48%;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 40px;
+}
+
+.homeImage img {
+    width: 28%;
+    padding: 10px 25px 10px 25px;
+}
+
+#filter {
+    width: 60%;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+#filter h4 {
+    border-bottom: 1px solid #329A9A;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#filter input {
+    margin-bottom: 10px;
+}
+
+.contact {
+    -webkit-user-select: none;
+    /* Chrome/Safari */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* IE10+ */
+    margin: 10px auto 25px auto;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    background: #329A9A;
+    color: white!important;
+    font-weight: 700;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid white;
+}
+
+.contact:hover {
+    background: #EAB81E;
+}
+
+.contact:active {
+    background: #444;
+}
+
+#contactForm {
+    display: none;
+    border: 6px solid #EAB81E;
+    padding: 2em;
+    width: 400px;
+    text-align: center;
+    background: #fff;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%)
+}
+
+#contactForm input, textarea {
+    margin: .8em auto;
+    font-family: inherit;
+    text-transform: inherit;
+    font-size: inherit;
+    display: block;
+    width: 280px;
+    padding: .4em;
+}
+
+.formBtn {
+    width: 140px;
+    display: inline-block;
+    background: #329A9A;
+    color: #fff;
+    font-weight: 100;
+    font-size: 1.2em;
+    border: none;
+    height: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+select {
+    margin-bottom: 10px;
+}
+
+.inline {
+    display: inline;
+}
+
+select.inline {
+    margin-right: 40px;
+}
+
+#shipForm input[type=text], input[type=email] {
+    width: 80%;
+    margin-bottom: 20px;
+    height: 25px;
+}
+
+#shipForm label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+#shipForm h2 {
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+.inline {
+    display: inline-block;
+}
+
+#paymentForm {
+    margin-top: 20px;
+}
+
+#paymentForm label {
+    display: block;
+    margin-bottom: 2px;
+    font-weight: bold;
+    margin-top: 8px;
+    margin-bottom: 5px;
+}
+
+.hundred {
+    width: 80%;
+    height: 20px;
+}
+
+.radioButton {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+#number {
+    width: 55%;
+}
+
+.expiry {
+    display: inline-block;
+    margin-right: 40px;
+}
+
+#review {
+    width: 20%;
+}
+
+#review-shipping {
+    width: 200px;
+}
+
+.total-shipping1{
+    border: 1px solid black;
+    padding: 10px;
+    width: 80%;
+}
+
+#review1, #review2{
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#review1 h4, #review2 h4{
+    margin-bottom: 10px;
+}
+
+#review2-1, #review2-2{
+    display: inline-block;
+}
+
+#review2-2{
+    margin-left: 50px;
+}
+
+.confirm{
+    color: #329A9A;
+    font-weight: bold;
+}
+
+#conf h2{
+    margin: 20px 0 15px 0;
+}
+
+#conf p{
+    font-size: 1.2em;
+}
+
+#conf{
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+#conf1 p{
+    font-size: 1.1em;
+}
