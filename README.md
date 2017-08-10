@@ -1,0 +1,2 @@
+# Oasis-Home-Decor
+In this project I designed and developed a small to medium sized e-commerce website with a focus on organizing and presenting complex functionality in a simplified manner to achieve business goals and user requirements. In order to achieve this, I  tried to make informed user-centered design interface choices utilizing the principles of aesthetics, ergonomics and heuristic principles
